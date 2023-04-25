@@ -18,7 +18,7 @@ geth --datadir data2 --nodiscover --syncmode "full" --networkid 12345 --port 300
 --http.port: 如果在同一台機器也要分別設定不同
 --http.corsdomain '*': 避免web cors問題
 --allow-insecure-unlock 
---unlock "67f9bf5cdae28C05761e1e8bFD51bAf107981F6e" : 指定unlock的地址，如果不在這邊給就要進去用
+--unlock "67f9bf5cdae28C05761e1e8bFD51bAf107981F6e" : 指定unlock的地址，如果不在這邊給就要啟動geth後unlock
 --password ./data/password.txt console : 指定unlock的密碼
 
 
